@@ -82,6 +82,8 @@ For citations use `Gleich's article on PageRank~\cite{Gleich2015}`. i.e. include
 
 For citations, use Author-Year whenever possible
 
+Don't use `\right` and `\left` unless you are in display mode. Consider `\bigl` `\bigr` and variants `\biggr`. [See more](https://tex.stackexchange.com/questions/19480/why-use-the-control-sequences-bigl-biggl-bigr-or-biggr-as-i-can-always-us) 
+
 ### Submitting to ArXiv 
 
 - use the arXiv minimal license. 
