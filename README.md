@@ -73,6 +73,10 @@ See the section of collaboration also.
 ### Deadlines
 Papers should have reasonably complete drafts at least one week before any deadline. (Sadly, sometimes we need to make exceptions to work with collaborators.)
 
+### Feedback
+
+Plan to ask your fellow team-mates for feedback as early as possible. At least one or two days before any deadlines. (See above, but this type of feedback does not constitute authorship, and you are all expected to help each other out!)
+
 ### Latex Quirks
 Always use `\varepsilon` and never `\epsilon`; consider the macro `\newcommand{\eps}{\varepsilon}`.
 
@@ -112,6 +116,7 @@ _Keep it simple._ Complexity should be used as a last resort. Use package defaul
 
 ### Examples
 
+#### Here's a minimal example
 ```
 using CairoMakie
 # Makie uses "pixels" as the default unit, so 3in = 3*96
@@ -119,6 +124,36 @@ f=Figure(; size=(3*96, 3*96), figure_padding=0) # set padding to 0
 ax = Axis(f[1, 1])
 lines!(ax, randn(10), randn(10))
 save("test.pdf", f) 
+```
+
+
+#### Here is an example of something like Observable Plot in Makie
+
+```
+using CairoMakie
+f=Figure(; size=(3*96, 3*96), figure_padding=0) # set padding
+ax = Axis(f[1, 1], alignmode=Outside())
+lines!(ax, randn(10), randn(10), label="Line 1")
+lines!(ax, randn(10), randn(10), label="Line 2")
+lines!(ax, randn(10), randn(10), label="Line 3")
+hidespines!(ax)
+lblt = Label(f[0,1], "↑ Response", 
+  rotation=0, halign=:left, valign=:bottom,
+  tellwidth=false, fontsize=11,
+  alignmode = Outside())
+lblr = Label(f[2,1], "Variable →", 
+  rotation=0, halign=:right, valign=:top,
+  tellwidth=false, fontsize=11)
+rowgap!(f.layout, 0)  
+ax.xticklabelsize[] = 11
+ax.yticklabelsize[] = 11
+#Legend(f[3,1], ax, fontsize=11, halign=:right, valign=:top)
+f[-1, 1] = Legend(f, ax, framevisible = false, orientation = :horizontal,
+  labelsize=11, padding=0)
+Label(f[3,1], "This could be some explanatory text", halign=:left,
+  tellwidth=false, fontsize=11, font=:bold)
+rowgap!(f.layout, 0)
+f
 ```
 
 ## Travel
@@ -133,10 +168,9 @@ TBD
 Please don't accept an invitation to review at a journal without telling me. And definitely ask. 
 
 ### Serving on PCs at conferences
-I don't feel it's appropriate for PhD students to be PC members at conferences. This is, evidently, not a widely shared opinion. If you are in your final year and _all but defense_ I am open to suggesting you as a reviewer / PC member as a conference. 
+I don't feel it's appropriate for PhD students to be PC members at conferences. This is, evidently, not a widely shared opinion. If you are in your final year and _all but defence_ I am open to suggesting you as a reviewer / PC member as a conference. 
 
-## Collaboration(inside and outside group)
-
+## Collaboration (inside and outside group)
 Collaboration is encouraged! Tell people about your research. If you think you can do more with a team 
 
 - I should generally be an author on anything you do. There can be exceptions but you want to discuss these with me as early as possible. 
