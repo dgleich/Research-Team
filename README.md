@@ -223,6 +223,10 @@ In my observation, what often distinguishes the most successful students from ot
 ### Kanban boards are super duper helpful
 Read the [Phoenix project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/1942788290)
 
+Do then on paper first. Then consider apps. I still use paper when I need to really get things done. 
+
+### [Embrace the grind](https://jacobian.org/2021/apr/7/embrace-the-grind/)
+
 ## Group meetings
 
 ## Questions over the years
