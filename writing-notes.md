@@ -21,10 +21,12 @@ You basically need to pick which frame you are writing in.
 * High level where you expect someone with basic knowledge to be able to fill in relevant details without mentioning them.
 * Mid level where you expect someone with some expertise knowledge to be to fill in relevant details without mentioning them
 * Low level where you are giving all the information to be able to reproduce what you did.
+
 So I like to think of it as:
 * People outside the area
 * People inside the area
 * People who want to do exactly what you did.
+
 So you’d write at a high level in the abstract/intro.
 Mid/low level in a methods section.
 Low level in an appendix/supplement/etc.
