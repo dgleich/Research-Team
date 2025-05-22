@@ -22,10 +22,22 @@ All of these are guidelines. There are reasons to ignore them, but they'd better
 
 * Don't start sentenes with acronyms. 
 
-* Learn how to setup good tables. See <https://www.tug.org/pracjourn/2007-1/mori/mori.pdf> 
+* Learn how to setup good tables. See <https://www.tug.org/pracjourn/2007-1/mori/mori.pdf>
+
+  Simple idea: 
+  Use booktabs, \toprule, \midrule, \bottomrule
+  Use tabularx and X columns.
+
+  Generally, multicol and multirow aren't needed.
+
+  Use \smash and \llap and \rlap to just get little adjustments. 
 
 * Learn how to use latexdiff
 
-* Learn when to use package subdepth 
+* Learn when to use package subdepth
+
+  You need subdepth if you have a ton of mixed superscript, subscript pairs.
+  Compare $A_X$ vs $A_X^T$ vs $A_X^{}$. Note the alignment on the subscript $X$.
+  If you don't want to think about this, just use subdepth. 
 
 
