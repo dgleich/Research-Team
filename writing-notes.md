@@ -1,10 +1,10 @@
 Overall writing
 ==============
 
-Hierarchical / pyramid writing
+Hierarchical / inverted pyramid writing
 ------------------------------
 
-Your title summarizes the main point.
+Your title summarizes the main point succinctly. 
 
 Your abstract explains your title.
 
@@ -12,7 +12,28 @@ Your intro explains your abstract.
 
 The rest of the paper explains your intro. 
 
+**More information** 
+* <https://www.poynter.org/reporting-editing/2003/writing-from-the-top-down-pros-and-cons-of-the-inverted-pyramid/>
 
+  > It’s also an extremely useful tool for thinking and organizing because it forces the reporter to sum up the point of the story in a single paragraph. Journalism students who master it and then go on to other fields say it comes in handy for writing everything from legal briefs to grant applications.
+
+  On the other hand
+  > The inverted pyramid, its critics say, is the anti-story. It tells the story backward and is at odds with the storytelling tradition that features a beginning, middle, and end. Rather than rewarding a reader with a satisfying conclusion, the pyramid loses steam and peters out, in a sense defying readers to stay awake, let alone read on.
+
+  After writing hundreds of papers, I agree with the first point. Clarity of thought is most important. A useful narrative arc in an academic paper is harder to do well.
+
+The DARPA Questions
+-------------------
+See <https://www.darpa.mil/about/heilmeier-catechism>. These are useful to help organize your thoughts and ideas. 
+
+1. What are you trying to do? Articulate your objectives using absolutely no jargon.
+2. How is it done today, and what are the limits of current practice?
+3. What is new in your approach and why do you think it will be successful?
+4. Who cares? If you are successful, what difference will it make?
+5. What are the risks?
+6. How much will it cost?
+7. How long will it take?
+8. What are the mid-term and final “exams” to check for success? 
 
 Writing frames
 --------------
