@@ -1,6 +1,19 @@
 Overall writing
 ==============
 
+How to write
+------------
+
+**Just write.** Don't try to be 'efficient' and write only what you think you need. This is a recipe for failure and delay. 
+
+**Don't get attached to your words.** Be ready to throw away all your writing. Words are cheap. Prize clarity of thought and expression. 
+
+**Learn how to edit.** Give your text to an LLM and have them delete big patches. What needs to be added back is essential. Everything else can go!  
+
+**Revisit, revise, and repeat.** Keep refining, editing. 
+
+**If possible, articulate the structure.** See below on hierarchical writing. 
+
 Hierarchical / inverted pyramid writing
 ------------------------------
 
@@ -13,6 +26,11 @@ Your intro explains your abstract.
 The rest of the paper explains your intro. 
 
 **More information** 
+* <https://www.nngroup.com/articles/inverted-pyramids-in-cyberspace/>
+  > One of the occupational hazards of getting a Ph.D. is a distinct predilection for the traditional pyramid style of exposition. I normally write the way I was trained to write: starting with the foundation and gradually building to the conclusion. Most research papers and engineering reports open with a problem statement, then review the prior art, and move into a detailed discussion of the different options that are considered and the methods that are used. After plowing through twenty pages of basics the patient reader may find a section entitled results with detailed tables, charts, and statistical tests; and after an additional five pages of this, a page or so of conclusions is reached. Phew...
+
+  I agree. This was one of the things Chen Greif taught me. Get to the point. Most readers are not 
+  
 * <https://www.poynter.org/reporting-editing/2003/writing-from-the-top-down-pros-and-cons-of-the-inverted-pyramid/>
 
   > It’s also an extremely useful tool for thinking and organizing because it forces the reporter to sum up the point of the story in a single paragraph. Journalism students who master it and then go on to other fields say it comes in handy for writing everything from legal briefs to grant applications.
