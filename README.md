@@ -158,7 +158,30 @@ f
 
 ## Travel
 
-TBD 
+## Travel
+
+Use the [Concur portal](https://one.purdue.edu/task/all/concur) to submit a travel request. You enter the dates and destination, and Concur will give you recommended hotels/flights and travel info. Follow the instructions to submit an official request through the portal. To submit, you will need an an account code specifying where the funding is coming from (ask David for this). A person has to go in and approve the request, so it isn't instantaneous.
+
+Concur requests: Try to book with the Concur-recommended hotels/flights as they generally give better rates. You can either book through the portal or book separately, though in either case you have to fill out a request. 
+
+Per diem: You get a per diem calculated by Concur for meals for the days you are out of town (including the travel days to and from). 
+
+Reimbursement: Email the CS business office (csbo@groups.purdue.edu) with receipts and the expense report (see below). You always need to submit receipts for the hotel, flights, and rental cars. You don't need to submit receipts for meals, etc. unless an expense is over $75. Reimbursement is by direct deposit and usually takes a couple weeks. 
+
+Expense report: answer the following along with a list of expenses.
+- Full Name
+- Date & time you left home
+- Date \& time you returned
+- Each city you stayed overnight in
+- Business Purpose
+- How did you get to the airport
+- Airport Used
+- Did you use a Rental vehicle?
+- Did you drive to place of business? If yes, please list business location address
+- Dates of meals provided by the conference/host
+- Department name \& account number (IO or WBSE) to charge travel
+
+See the [official travel regulations](https://www.purdue.edu/procurement/travel/regulations/index.php) for more info.
 
 ## Reviewing
 
