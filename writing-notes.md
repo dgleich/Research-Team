@@ -4,7 +4,7 @@ All of these are guidelines. There are reasons to ignore them, but they'd better
 
 * Don't ever use `\epsilon` in latex. Use `\varepsilon`. In fact, define `\newcommand{\eps}{\varepsilon}` and use `\eps`. 
 
-* Don't use subsections. Two levels of hierarchy is almost always good enough (unless you are writing a thesis). See <https://web.archive.org/web/20070205200717/http%3A//blogs.sun.com/MartinHardee/date/20040624> 
+* Don't use subsubsections. Two levels of hierarchy is almost always good enough (unless you are writing a thesis). See <https://web.archive.org/web/20070205200717/http%3A//blogs.sun.com/MartinHardee/date/20040624> 
 
   This was one of my first notes in the #latex channel on slack. 
   > Just a quick note, I strongly dislike subsubsections in papers… A paper should have two levels of organization: sections, subsections.
