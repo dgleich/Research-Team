@@ -25,6 +25,45 @@ Your intro explains your abstract.
 
 The rest of the paper explains your intro. 
 
+### Examples
+
+Title: An Empirical Study of Conjugate Gradient Preconditioners for Solving Symmetric Positive Definite Systems of Linear Equations
+
+Abstract:
+Despite hundreds of papers on preconditioned linear systems of equations, there remains a significant lack of comprehensive performance benchmarks comparing various preconditioners for solving symmetric positive definite (SPD) systems.
+In this paper, we present a comparative study of 79 matrices
+using a broad range of preconditioners.
+Specifically, we evaluate 10 widely used preconditoners across 108 configurations to assess their relative performance against using no preconditioner.
+Our focus is on preconditioners that are commonly used in practice, are available in major software packages, and can be utilized as black-box tools without requiring significant a priori knowledge. 
+In addition, we compare these against a selection of classical methods.
+We primarily compare them without regards to effort needed to compute the preconditioner. 
+Our results show that symmetric positive definite systems are mostly likely to benefit from incomplete symmetric factorizations, such as incomplete Cholesky (IC). Multigrid methods occasionally do exceptionally well.
+Simple classical techniques, symmetric Gauss Seidel and symmetric SOR, are not productive.
+We find that including preconditioner construction costs significantly diminishes the advantages of iterative methods compared to direct solvers; although, tuned IC methods often still outperform direct methods.
+Additionally, ordering strategies such as approximate minimum degree significantly enhance IC effectiveness.
+We plan to expand the benchmark with larger matrices, additional solvers, and detailed metrics to provide actionable information on SPD preconditioning.
+
+Analysis:
+
+_Empirical Study_ -> In this paper, we present a comparative study of 79 matrices
+using a broad range of preconditioners.
+Specifically, we evaluate 10 widely used preconditoners across 108 configurations to assess their relative performance against using no preconditioner.
+
+_Conjugate Gradient_ -> Expected to be known. Relevant to the choice of SPD systems only. 
+
+_Preconditioners_ -> (Our main contribution) Specifically, we evaluate 10 widely used preconditoners across 108 configurations to assess their relative performance against using no preconditioner.
+Our focus is on preconditioners that are commonly used in practice, are available in major software packages, and can be utilized as black-box tools without requiring significant a priori knowledge. 
+In addition, we compare these against a selection of classical methods.
+We primarily compare them without regards to effort needed to compute the preconditioner. 
+
+_Solving Symmetric Positive Definite Systems of Linear Equations_ -> Despite hundreds of papers on preconditioned linear systems of equations, there remains a significant lack of comprehensive performance benchmarks comparing various preconditioners for solving symmetric positive definite (SPD) systems.
+
+_A study implies findings, what are your findings / results?_ -> Our results show that symmetric positive definite systems are mostly likely to benefit from incomplete symmetric factorizations, such as incomplete Cholesky (IC). Multigrid methods occasionally do exceptionally well.
+Simple classical techniques, symmetric Gauss Seidel and symmetric SOR, are not productive.
+We find that including preconditioner construction costs significantly diminishes the advantages of iterative methods compared to direct solvers; although, tuned IC methods often still outperform direct methods.
+Additionally, ordering strategies such as approximate minimum degree significantly enhance IC effectiveness.
+
+
 **More information** 
 * <https://www.nngroup.com/articles/inverted-pyramids-in-cyberspace/>
   > One of the occupational hazards of getting a Ph.D. is a distinct predilection for the traditional pyramid style of exposition. I normally write the way I was trained to write: starting with the foundation and gradually building to the conclusion. Most research papers and engineering reports open with a problem statement, then review the prior art, and move into a detailed discussion of the different options that are considered and the methods that are used. After plowing through twenty pages of basics the patient reader may find a section entitled results with detailed tables, charts, and statistical tests; and after an additional five pages of this, a page or so of conclusions is reached. Phew...
